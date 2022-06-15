@@ -1,9 +1,8 @@
-import { useState } from 'react'
-import { Slider, Slide } from './transform-scroller'
+
+import { Slider, Slide } from './components'
 import styles from "./transform-scroller/main.module.css"
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
    <Slider
